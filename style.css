@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #C5DFF8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #4A55A2;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #7895CB;
+}
+
+.paras {
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    margin: 8px;
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 0px 20px 0px 20px;
+    background: rgb(146, 229, 217);
+    background: linear-gradient(90deg, rgba(146, 229, 217, 1) 0%, rgba(74, 85, 160, 1) 0%, rgba(120, 149, 203, 1) 100%);
+    box-shadow: 3px 3px 5px rgb(130, 129, 236);
+}
+
+.paras p {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .box {
+    background-color: white;
+    width: 170px;
+    height: 190px;
+    border-radius: 20px;
+    background: rgb(146, 229, 217);
+    background: rgb(146, 229, 217);
+    background: linear-gradient(234deg, rgba(146, 229, 217, 1) 0%, rgba(119, 134, 230, 1) 0%, rgba(187, 209, 249, 1) 100%);
+    box-shadow: -5px 5px 10px rgb(130, 129, 236);
+}
+
+.container div h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #4A55A2;
+}
+
+.container div img {
+    width: 130px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+footer {
+    background: linear-gradient(180deg, rgba(146, 229, 217, 1) 0%, rgba(74, 85, 160, 1) 0%, rgba(120, 149, 203, 1) 100%);
+    margin-top: 20px;
+    height: 68px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer p {
+    color: white;
+    padding-top: 8px;
+}
+
+footer button {
+    margin-top: 5px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(146, 229, 217);
+    background: linear-gradient(83deg, rgba(146, 229, 217, 1) 0%, rgba(176, 186, 249, 1) 0%, rgba(226, 236, 255, 1) 100%);
+    color: #0f1b77;
+}
